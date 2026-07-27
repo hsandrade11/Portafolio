@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(121, 121, 121);
+}
+
+.stopWatch {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/stopwatch.jpg);
+    max-width: 600px;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    margin: 200px auto 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.stopWatch h1 {
+    font-size: 80px;
+    margin: 50px 0;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stopWatch img {
+    width: 60px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.stopWatch img:nth-child(2){
+    width: 90px;
+}

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <!--Menu Header-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">@hsandrade</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- Section Inicio-->
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/Yo.png" alt="">
+            </div>
+            <h1>Harold Stiven Gonzalez Andrade</h1>
+            <h2>Estudiante de Desarrollo de Software.</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/share/1DPQwobqUH/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://wa.me/573138166307" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <section id="sobremi" class="sobremi">
+        <div class="container-section">
+            <h2>Sobre mí</h2>
+            <p>
+                <span>Hola, soy Harold González.</span>
+                Soy un estudiante de desarrollo de software, me gusta jugar videojuegos y hacer deporte.
+            </p>
+            <div class="fila">
+                <!-- Columna 1 -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li><strong>Cumpleaños</strong> 07-04-2008</li>
+                        <li><strong>Teléfono</strong> 313 816 6307</li>
+                        <li><strong>Email</strong> hsandrade11gmail.com</li>
+                        <li><strong>Dirección</strong> Gigante, Huila, Colombia</li>
+                        <li><strong>Cargo</strong> Aprendiz de Desarrollo de Software</li>
+                    </ul>
+                </div>
+                <!-- Columna 2 -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="container-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Videojuegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-basketball"></i>
+                            <span>Deporte</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <span>Programación</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>Música</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV
+                <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skills -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Illustrator</span>
+                        <div class="barra-skill">
+                            <div class="progreso illustrator">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajo">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <!-- Educación -->
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Educación Media Superior</h4>
+                        <span class="casa">Institución Educativa Silvania</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Baciller academico culminado. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnólogo en Desarrollo de Software</h4>
+                        <span class="casa">SENA - Garzón</span>
+                        <span class="fecha">2025 - Presente</span>
+                        <p>Formación en desarrollo web, programación, bases de datos y desarrollo de aplicaciones.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Experiencia -->
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Proyectos Académicos</h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">2025 - Presente</span>
+                        <p>Desarrollo de aplicaciones web utilizando HTML, CSS y JavaScript como parte del proceso
+                            formativo.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Proyectos Personales</h4>
+                        <span class="casa">Freelance / Personal</span>
+                        <span class="fecha">2025 - Presente</span>
+                        <p>Diseño y desarrollo de proyectos personales para fortalecer habilidades en desarrollo web y
+                            programación.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portafolio" class="portafolio">
+        <div class="container-section">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+            <a href="Evidencias/01-Dom/index.html" target="_blank">
+                <div class="proyecto">
+                        <img src="img/dom1.png" alt="Cambiar Color">
+                        <div class="overlay">
+                            <h3>Cambiar Color</h3>
+                            <p>DOM-01</p>
+                        </div>
+                </div>
+            </a>
+            <a href="Evidencias/02-Dom/index.html" target="_blank">
+                <div class="proyecto">
+                        <img src="img/dom2.png" alt="Contador">
+                        <div class="overlay">
+                            <h3>Contador</h3>
+                            <p>DOM-02</p>
+                        </div>
+                </div>
+            </a>
+            <a href="Evidencias/03-Dom/index.html" target="_blank">
+                <div class="proyecto">
+                        <img src="img/dom3.png" alt="Venta Carro">
+                        <div class="overlay">
+                            <h3>Venta Carro</h3>
+                            <p>DOM-03</p>
+                        </div>
+                </div>
+            </a>
+            <a href="Evidencias/04-Dom/index.html" target="_blank">
+                <div class="proyecto">
+                        <img src="img/dom4.png" alt="Cursor Animado">
+                        <div class="overlay">
+                            <h3>Cursor Animado</h3>
+                            <p>DOM-04</p>
+                        </div>
+                </div>
+            </a>
+            <a href="Evidencias/05-Dom/index.html" target="_blank">
+                <div class="proyecto">
+                        <img src="img/dom5.png" alt="Cronómetro">
+                        <div class="overlay">
+                            <h3>Cronómetro</h3>
+                            <p>DOM-05</p>
+                        </div>
+                </div>
+            </a>
+            <a href="Evidencias/06-Dom/index.html" target="_blank">
+                <div class="proyecto">
+                        <img src="img/dom6.png" alt="Galería 3D">
+                        <div class="overlay">
+                            <h3>Galería 3D</h3>
+                            <p>DOM-06</p>
+                        </div>
+                </div>
+            </a>
+            <a href="Evidencias/07-Dom/index.html" target="_blank">
+                <div class="proyecto">
+                        <img src="img/dom7.png" alt="Mensajes">
+                        <div class="overlay">
+                            <h3>Mensajes</h3>
+                            <p>DOM-07</p>
+                        </div>
+                </div>
+            </a>
+            <a href="Evidencias/08-Dom/index.html" target="_blank">
+                <div class="proyecto">
+                        <img src="img/dom8.png" alt="Batería Musical">
+                        <div class="overlay">
+                            <h3>Batería Musical</h3>
+                            <p>DOM-08</p>
+                        </div>
+                </div>
+            </a>
+            <a href="Evidencias/09-Dom/index.html" target="_blank">
+                <div class="proyecto">
+                        <img src="img/dom9.png" alt="Calculadora">
+                        <div class="overlay">
+                            <h3>Calculadora</h3>
+                            <p>DOM-09</p>
+                        </div>
+                </div>
+            </a>
+            <a href="Evidencias/10-Dom/index.html" target="_blank">
+                <div class="proyecto">
+                        <img src="img/dom10.png" alt="Lista de Tareas">
+                        <div class="overlay">
+                            <h3>Lista de Tareas</h3>
+                            <p>DOM-10</p>
+                        </div>
+                </div>
+            </a>
+            <a href="Evidencias/11-Dom/index.html" target="_blank">
+                <div class="proyecto">
+                        <img src="img/dom11.png" alt="Pasapalabras">
+                        <div class="overlay">
+                            <h3>Pasapalabras</h3>
+                            <p>DOM-11</p>
+                        </div>
+                </div>
+            </a>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="container-section">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="TU Nombre">
+                    <input type="email" placeholder="Dirección de Correo">
+                    <input type="text" placeholder="Numero de Telefono">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>Enviar <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Garzon, Huila, Colombia</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                <span>Llamame: +57 313 816 6307</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>Correo: hsandrade11@gmail.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/share/1DPQwobqUH/" target="_blank""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://wa.me/573138166307" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
